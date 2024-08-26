@@ -1,8 +1,6 @@
-package FP_Prac08
-
 object Q1{
   def filterEvenNumbers(lis : List[Int]) : List[Int] = {
-    lis.filter(_ % 2 == 0)
+    lis.filter(Num => Num % 2 == 0)
   }
 
   def main(args: Array[String]): Unit = {
