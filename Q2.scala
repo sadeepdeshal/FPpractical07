@@ -1,5 +1,3 @@
-package FP_Prac08
-
 object Q2{
 
   def calculateSquare(lis: List[Int]): List[Int] = {
